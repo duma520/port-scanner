@@ -1,0 +1,1 @@
+python port_scanner.py -s 1 -e 65535 -t 2 ss2.shier.zhumengtongxing.com

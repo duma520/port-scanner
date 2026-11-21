@@ -1,0 +1,1 @@
+python port_scanner.py %1 -s 1 -e 65535 -t 100

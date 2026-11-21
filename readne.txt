@@ -1,0 +1,9 @@
+在命令行中运行：
+默认扫描 1 到 1024 端口：
+python port_scanner.py www.163.com
+指定扫描范围（例如 1 到 1000 端口）：
+python port_scanner.py www.163.com --start-port 1 --end-port 1000
+使用简写参数
+python port_scanner.py www.163.com -s 1 -e 1000
+指定扫描范围（例如 1 到 1000 端口），使用 50 个线程：
+python port_scanner.py www.163.com -s 1 -e 1000 -t 50
